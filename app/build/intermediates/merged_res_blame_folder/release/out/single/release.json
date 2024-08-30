@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\atchu\\.gradle\\daemon\\8.5\\com.example.attendanceapp-merged_res-34:\\layout_activity_another.xml.flat",
+        "source": "C:\\Users\\atchu\\.gradle\\daemon\\8.5\\com.example.attendanceapp-main-35:\\layout\\activity_another.xml"
+    },
+    {
+        "merged": "C:\\Users\\atchu\\.gradle\\daemon\\8.5\\com.example.attendanceapp-merged_res-34:\\mipmap_ic_launcher.xml.flat",
+        "source": "C:\\Users\\atchu\\.gradle\\daemon\\8.5\\com.example.attendanceapp-main-35:\\mipmap\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\atchu\\.gradle\\daemon\\8.5\\com.example.attendanceapp-merged_res-34:\\mipmap_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\atchu\\.gradle\\daemon\\8.5\\com.example.attendanceapp-main-35:\\mipmap\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.attendanceapp-merged_res-34:/layout_activity_another.xml.flat",
+        "source": "com.example.attendanceapp-main-35:/layout/activity_another.xml"
+    },
+    {
+        "merged": "C:\\Users\\atchu\\.gradle\\daemon\\8.5\\com.example.attendanceapp-merged_res-34:\\layout_activity_clock_in.xml.flat",
+        "source": "C:\\Users\\atchu\\.gradle\\daemon\\8.5\\com.example.attendanceapp-main-35:\\layout\\activity_clock_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\atchu\\.gradle\\daemon\\8.5\\com.example.attendanceapp-merged_res-34:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\atchu\\.gradle\\daemon\\8.5\\com.example.attendanceapp-main-35:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\atchu\\.gradle\\daemon\\8.5\\com.example.attendanceapp-merged_res-34:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\atchu\\.gradle\\daemon\\8.5\\com.example.attendanceapp-main-35:\\layout\\activity_register.xml"
+    }
+]

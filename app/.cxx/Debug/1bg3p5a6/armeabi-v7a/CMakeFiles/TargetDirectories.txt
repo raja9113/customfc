@@ -1,0 +1,2 @@
+D:/fctest/app/.cxx/Debug/1bg3p5a6/armeabi-v7a/CMakeFiles/edit_cache.dir
+D:/fctest/app/.cxx/Debug/1bg3p5a6/armeabi-v7a/CMakeFiles/rebuild_cache.dir

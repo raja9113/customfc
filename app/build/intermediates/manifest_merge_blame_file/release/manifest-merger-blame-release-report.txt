@@ -1,0 +1,109 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.attendanceapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\fctest\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\fctest\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\fctest\app\src\main\AndroidManifest.xml:5:5-35:19
+12        android:allowBackup="true"
+12-->D:\fctest\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.7.0] C:\Users\atchu\.gradle\caches\transforms-3\0ca2d9e64627b5f2f40a35154f45ebef\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+14        android:icon="@mipmap/ic_launcher"
+14-->D:\fctest\app\src\main\AndroidManifest.xml:7:9-43
+15        android:label="@string/app_name"
+15-->D:\fctest\app\src\main\AndroidManifest.xml:8:9-41
+16        android:roundIcon="@mipmap/ic_launcher_round"
+16-->D:\fctest\app\src\main\AndroidManifest.xml:9:9-54
+17        android:supportsRtl="true"
+17-->D:\fctest\app\src\main\AndroidManifest.xml:10:9-35
+18        android:theme="@style/AppTheme" >
+18-->D:\fctest\app\src\main\AndroidManifest.xml:11:9-40
+19
+20        <!-- Main Activity -->
+21        <activity
+21-->D:\fctest\app\src\main\AndroidManifest.xml:14:9-21:20
+22            android:name="com.example.attendanceapp.MainActivity"
+22-->D:\fctest\app\src\main\AndroidManifest.xml:15:13-41
+23            android:exported="true" > <!-- android:exported is required for Android 12+ -->
+23-->D:\fctest\app\src\main\AndroidManifest.xml:16:13-36
+24            <intent-filter>
+24-->D:\fctest\app\src\main\AndroidManifest.xml:17:13-20:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->D:\fctest\app\src\main\AndroidManifest.xml:18:17-69
+25-->D:\fctest\app\src\main\AndroidManifest.xml:18:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->D:\fctest\app\src\main\AndroidManifest.xml:19:17-77
+27-->D:\fctest\app\src\main\AndroidManifest.xml:19:27-74
+28            </intent-filter>
+29        </activity>
+30
+31        <!-- Another Activity -->
+32        <activity
+32-->D:\fctest\app\src\main\AndroidManifest.xml:24:9-31:20
+33            android:name="com.example.attendanceapp.AnotherActivity"
+33-->D:\fctest\app\src\main\AndroidManifest.xml:25:13-44
+34            android:exported="true" > <!-- android:exported is required for Android 12+ -->
+34-->D:\fctest\app\src\main\AndroidManifest.xml:26:13-36
+35            <intent-filter>
+35-->D:\fctest\app\src\main\AndroidManifest.xml:27:13-30:29
+36                <action android:name="com.example.attendanceapp.ANOTHER_ACTION" />
+36-->D:\fctest\app\src\main\AndroidManifest.xml:28:17-83
+36-->D:\fctest\app\src\main\AndroidManifest.xml:28:25-80
+37
+38                <category android:name="android.intent.category.DEFAULT" />
+38-->D:\fctest\app\src\main\AndroidManifest.xml:29:17-76
+38-->D:\fctest\app\src\main\AndroidManifest.xml:29:27-73
+39            </intent-filter>
+40        </activity>
+41
+42        <!-- Add other activities here, ensuring they all have the android:exported attribute if they have an intent-filter -->
+43
+44        <service
+44-->[androidx.camera:camera-camera2:1.1.0] C:\Users\atchu\.gradle\caches\transforms-3\b363a45a18f050028bb42614f09c6bec\transformed\jetified-camera-camera2-1.1.0\AndroidManifest.xml:26:9-35:19
+45            android:name="androidx.camera.core.impl.MetadataHolderService"
+45-->[androidx.camera:camera-camera2:1.1.0] C:\Users\atchu\.gradle\caches\transforms-3\b363a45a18f050028bb42614f09c6bec\transformed\jetified-camera-camera2-1.1.0\AndroidManifest.xml:27:13-75
+46            android:enabled="false"
+46-->[androidx.camera:camera-camera2:1.1.0] C:\Users\atchu\.gradle\caches\transforms-3\b363a45a18f050028bb42614f09c6bec\transformed\jetified-camera-camera2-1.1.0\AndroidManifest.xml:28:13-36
+47            android:exported="false" >
+47-->[androidx.camera:camera-camera2:1.1.0] C:\Users\atchu\.gradle\caches\transforms-3\b363a45a18f050028bb42614f09c6bec\transformed\jetified-camera-camera2-1.1.0\AndroidManifest.xml:29:13-37
+48            <meta-data
+48-->[androidx.camera:camera-camera2:1.1.0] C:\Users\atchu\.gradle\caches\transforms-3\b363a45a18f050028bb42614f09c6bec\transformed\jetified-camera-camera2-1.1.0\AndroidManifest.xml:32:13-34:89
+49                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+49-->[androidx.camera:camera-camera2:1.1.0] C:\Users\atchu\.gradle\caches\transforms-3\b363a45a18f050028bb42614f09c6bec\transformed\jetified-camera-camera2-1.1.0\AndroidManifest.xml:33:17-103
+50                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+50-->[androidx.camera:camera-camera2:1.1.0] C:\Users\atchu\.gradle\caches\transforms-3\b363a45a18f050028bb42614f09c6bec\transformed\jetified-camera-camera2-1.1.0\AndroidManifest.xml:34:17-86
+51        </service>
+52
+53        <provider
+53-->[androidx.emoji2:emoji2:1.0.0] C:\Users\atchu\.gradle\caches\transforms-3\8ad4e513a32814c2693194e6d4662c77\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+54            android:name="androidx.startup.InitializationProvider"
+54-->[androidx.emoji2:emoji2:1.0.0] C:\Users\atchu\.gradle\caches\transforms-3\8ad4e513a32814c2693194e6d4662c77\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+55            android:authorities="com.example.attendanceapp.androidx-startup"
+55-->[androidx.emoji2:emoji2:1.0.0] C:\Users\atchu\.gradle\caches\transforms-3\8ad4e513a32814c2693194e6d4662c77\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+56            android:exported="false" >
+56-->[androidx.emoji2:emoji2:1.0.0] C:\Users\atchu\.gradle\caches\transforms-3\8ad4e513a32814c2693194e6d4662c77\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+57            <meta-data
+57-->[androidx.emoji2:emoji2:1.0.0] C:\Users\atchu\.gradle\caches\transforms-3\8ad4e513a32814c2693194e6d4662c77\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+58                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+58-->[androidx.emoji2:emoji2:1.0.0] C:\Users\atchu\.gradle\caches\transforms-3\8ad4e513a32814c2693194e6d4662c77\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+59                android:value="androidx.startup" />
+59-->[androidx.emoji2:emoji2:1.0.0] C:\Users\atchu\.gradle\caches\transforms-3\8ad4e513a32814c2693194e6d4662c77\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+60            <meta-data
+60-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\atchu\.gradle\caches\transforms-3\4c4fb7806f37faf25654709c8533d8bf\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+61                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+61-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\atchu\.gradle\caches\transforms-3\4c4fb7806f37faf25654709c8533d8bf\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+62                android:value="androidx.startup" />
+62-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\atchu\.gradle\caches\transforms-3\4c4fb7806f37faf25654709c8533d8bf\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+63        </provider>
+64    </application>
+65
+66</manifest>

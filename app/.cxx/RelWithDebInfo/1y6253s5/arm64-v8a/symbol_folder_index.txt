@@ -1,0 +1,1 @@
+D:\fctest\app\build\intermediates\cxx\RelWithDebInfo\1y6253s5\obj\arm64-v8a

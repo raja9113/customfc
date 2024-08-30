@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.0.0" type="partial_results">
+    <map id="UnusedResources">
+        <location id="R.string.clock_in"
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="5"
+            column="13"
+            startOffset="133"
+            endLine="5"
+            endColumn="28"
+            endOffset="148"/>
+        <location id="R.string.register_face"
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="4"
+            column="13"
+            startOffset="77"
+            endLine="4"
+            endColumn="33"
+            endOffset="97"/>
+        <entry
+            name="model"
+            string="id[btn_clock_in(U),btn_register(U)],layout[activity_clock_in(U),activity_another(U),activity_main(U),activity_register(U)],mipmap[ic_launcher_round(U),ic_launcher(U)],string[app_name(U),clock_in(D),register_face(D)],style[Theme_AppCompat_Light_DarkActionBar(R),AppTheme(U)];c^b;;;"/>
+    </map>
+
+</incidents>
